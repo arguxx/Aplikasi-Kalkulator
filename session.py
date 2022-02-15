@@ -68,3 +68,4 @@ class session:
         elif add_more == 2:
             hasil = mul_div(input1, input2)
             hasil.multiplication()
+

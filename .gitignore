@@ -1,2 +1,4 @@
 /calculator.pyc
-/session.pyc
+session.pyc
+__pycache__
+.vscode

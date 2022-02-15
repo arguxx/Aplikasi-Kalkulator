@@ -1,9 +1,16 @@
-
-from mimetypes import init
-
-def two_numbers():
-    pass
-def three_numbers():
-    print("yeay, bisa!")
-def four_numbers():
-    pass
+class session:
+    def menu():
+        while True:
+            print("1. two numbers \n2. three numbers \n3. Four Numbers \n4. exit")
+            insert = input("\ntolong pilih angka: ")
+            if insert == 1:
+                print("berhasil memilih satu")
+            elif insert == 2:
+                print("berhasil memilih dua")
+            elif insert == 3:
+                print("berhasil memilih tiga")
+            elif insert == 4:
+                print("Thankyou :D")
+                break
+            else:
+                break
